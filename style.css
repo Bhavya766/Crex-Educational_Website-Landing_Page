@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@media only screen and (min-width:520px) {
+    .html{
+        margin:0 10%;
+    }
+}
+/* 
+Typography */
+.small-header{
+    font-size:1.5rem;
+    letter-spacing: 0.8px;
+}
+.sub-header{
+    font-size: 1.8rem;
+}
+.text{
+    font-size: 0.9rem;
+}
+@media only screen and (min-width:520px) {
+    .small-header{
+        font-size: 1.7rem;
+        letter-spacing: 0.5px;
+    }
+    .sub-header{
+        font-size: 3rem;
+    }
+    .text{
+        font-size: 1.3rem;
+    }
+}
+
+/* Hero section */
+header{
+    background-color: #223782;
+    min-height: 100vh;
+    max-width:100vw;
+}
+.header-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.header-top img{
+    width:10rem;
+}
+nav ul{
+    display: flex;
+}
+.nav-item{
+    margin:0 2em;
+    list-style-type: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color:#FFD350;
+    margin-top:1rem;
+}
+.hero-section{
+    text-align: center;
+}
+.header{
+    margin-top: 4rem;
+    font-size: 5rem;
+    color:#ffffff;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+}
+.sub-title{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    color:#9CA8CF;
+    max-width: 90vw;
+    font-weight: 300;
+    font-size:1.2rem;
+}
+.sub-title span{
+    color:#ffffff;
+}
+.CTA-button{
+    padding:8px;
+    border-radius:10px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    background-color: #FFD350;
+    color:#ffffff;
+    border:1px solid #FFD350;
+    margin-bottom: 4rem;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.CTA-button:hover,.CTA-button:active,.CTA-button:focus{
+    background-color: #ffd862;
+    padding:10px;
+}
+@media only screen and (min-width: 520px){
+    .header{
+        font-size: 8rem;
+    }
+    .sub-title{
+        font-size: 1.8rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+        max-width: 80%;
+    }
+}
+/* 
+Social proof box of company logo */
+.companies{
+    text-align: center;
+    color:#223782;
+}
+.logos{
+    margin: 0 auto;
+    width:70%;
+    margin-top:1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+@media only screen and (min-width:930px) {
+    .CTA-button{
+        margin-bottom: 10rem;
+    }
+    .companies{
+        margin: 0% auto;
+        width: 60%;
+        margin-top:-6.5rem;
+        background-color: #ffffff;
+        border-radius: 0.8rem;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        padding:1.4rem 0.5rem;
+        margin-bottom: 3rem;
+    }
+    .logos{
+        width:75%;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+
+/* 
+Features section */
+.features-section{
+    color:#223782;
+}
+.features-intro{
+    text-align: center;
+    
+}
